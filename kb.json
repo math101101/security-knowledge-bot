@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "owasp-xss",
+      "title": "XSS (Cross-Site Scripting)",
+      "tags": ["owasp", "xss", "web", "injection"],
+      "content": "XSS é uma vulnerabilidade onde um atacante injeta scripts (geralmente JavaScript) em páginas vistas por outros usuários. Mitigações: escaping/encoding por contexto, Content Security Policy (CSP), validação/normalização de input, uso correto de templates e evitar innerHTML.",
+      "source": "OWASP Top 10"
+    },
+    {
+      "id": "owasp-sqli",
+      "title": "SQL Injection",
+      "tags": ["owasp", "sqli", "sql", "database"],
+      "content": "SQL Injection acontece quando dados não confiáveis entram em uma query SQL e alteram sua lógica. Mitigações: queries parametrizadas (prepared statements), ORM seguro, validação de input, menor privilégio no banco, WAF como camada extra (não substitui correção).",
+      "source": "OWASP Top 10"
+    },
+    {
+      "id": "iso-27001-risk",
+      "title": "Risco em Segurança da Informação (ISO 27001)",
+      "tags": ["iso27001", "risco", "governanca", "sgsi"],
+      "content": "Risco normalmente é tratado como combinação de probabilidade e impacto. Na ISO 27001, a organização define critérios, avalia riscos, escolhe tratamento (mitigar, transferir, aceitar, evitar) e implementa controles (Anexo A) alinhados aos objetivos de segurança.",
+      "source": "ISO/IEC 27001 (conceitos)"
+    },
+    {
+      "id": "gdpr-basics",
+      "title": "GDPR - Conceitos básicos",
+      "tags": ["gdpr", "privacidade", "lgpd", "dados"],
+      "content": "GDPR é a regulamentação de proteção de dados da UE. Princípios incluem: minimização, finalidade, transparência, segurança e responsabilização. Papéis comuns: controller e processor. Direitos incluem acesso, correção, exclusão e portabilidade.",
+      "source": "Regulamento (UE) 2016/679"
+    },
+    {
+      "id": "auth-mfa",
+      "title": "MFA (Autenticação Multifator)",
+      "tags": ["mfa", "autenticacao", "iam", "fido2"],
+      "content": "MFA combina dois ou mais fatores: algo que você sabe (senha), tem (token/app), ou é (biometria). Preferir métodos resistentes a phishing (FIDO2/WebAuthn) quando possível. TOTP é melhor que SMS na maioria dos casos.",
+      "source": "Boas práticas de IAM"
+    }
+  ]
+}
+S
